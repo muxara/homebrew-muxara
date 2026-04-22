@@ -1,9 +1,9 @@
 cask "muxara" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "138c9d416a269b90b0742d86f9066ccb6bd7afc65ae062d73ea07e04b33efdcd",
-         intel: "0bf291a95c9946f4646617f56ff70071573d424def50f647873307baaa79499a"
+  version "0.1.2"
+  sha256 arm:   "691727e33f450abda00ab3a1539429565d275d17bce81850d66ccaa18fed89cf",
+         intel: "99b310efd0219bdce15ffd262fee3d28dd2b5b957503e02d16060f0a42604a6d"
 
   url "https://github.com/muxara/muxara/releases/download/v#{version}/Muxara_#{version}_#{arch}.dmg",
       verified: "github.com/muxara/muxara/"
